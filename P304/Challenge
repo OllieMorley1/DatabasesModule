@@ -1,0 +1,19 @@
+As a cinema company manager,
+So I can keep track of movies being shown,
+I want to keep a list of movies with their title and release date.
+
+As a cinema company manager,
+So I can keep track of movies being shown,
+I want to keep a list of my cinemas with their city name (e.g 'London' or 'Manchester').
+
+As a cinema company manager,
+So I can keep track of movies being shown,
+I want to be able to list which cinemas are showing a specific movie.
+
+As a cinema company manager,
+So I can keep track of movies being shown,
+I want to be able to list which movies are being shown a specific cinema.
+
+Movies - title text, release_date text
+Cinema - city text
+

@@ -1,0 +1,44 @@
+1. 
+# As a coach
+# So I can get to know all students
+# I want to see a list of students' names.
+
+# As a coach
+# So I can get to know all students
+# I want to see a list of students' cohorts.
+
+nouns: student, name, cohort_name
+
+table: students
+columns: id (serial) | name (text) | cohort_name (text)
+
+CREATE TABLE students (
+    id SERIAL PRIMARY KEY,
+    name text,
+    cohort_name text
+);
+
+2.
+# As a person who loves movies,
+# So I can list all my favourite movies
+# I want to see a list of movies' titles.
+
+# As a person who loves movies,
+# So I can list all my favourite movies
+# I want to see a list of movies' genres.
+
+# As a person who loves movies,
+# So I can list all my favourite movies
+# I want to see a list of movies' release year.
+
+nouns: movies, title, genre, release_year
+
+table:movies
+columns: id(serial) | title(text) | genre(text) | release_year(int)
+
+CREATE TABLE movies (
+    id SERIAL PRIMARY KEY,
+    title text,
+    genre text,
+    release_year int
+);
